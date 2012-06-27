@@ -1,0 +1,30 @@
+people:
+  - name: Joebob
+    pronoun: He
+  - name: John
+    pronoun: He
+  - name: Jane Doe
+    pronoun: She
+  - name: "Mindy \"I took mommy's pills\" Smith"
+    pronoun: She
+apps:
+  - Website
+  - Drupal
+  - Wordpress
+  - Awesometastic App A
+reasons:
+  - "(messed|screwed) up the UI"
+  - "didn't (write|develop|design|build) future-proof (code|services|components)"
+  - "let (wiki|samba|word) documents get out of sync with the application documentation"
+  - "went (way |)over estimate on (all|most|too many|several key) tasks"
+  - "didn't spend enough time communicating with (the lead|the PM|peers|the client)"
+  - "(wasted|spent|took) too much time communicating (unnecessary|irrelevant) information to (the lead|the PM|peers|the client)"
+  - "wasted time building (services|a reusable component) the clients didn't approve"
+  - "(forgot to|refused to|didn't) follow the (code|design|peer review|testing) process properly"
+  - "produced mock-ups that didn't match the (project's|feature's|) final UI"
+  - "didn't update Redmine tickets in a timely manner"
+  - "(wasted time looking for existing libraries instead of just building one|wasted time building a library instead of looking for existing ones)"
+  - "(wasn't able to|chose not to|refused to|wouldn't) (respect|follow) the chain of command( properly|)"
+formats:
+  - "The problem with {app} was {person}, who {reason}."
+  - "We (went over budget|missed the deadline|dropped the ball) on {app} (mostly|partially|primarily|) because (of {person}.  {pronoun}|{person}) {reason}."
