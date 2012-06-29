@@ -1,27 +1,3 @@
-# This is a project designed to help managers of small software development teams provide useful
-# feedback and simplify their annualreviews.  Just copy the included blame.yaml-dist file to
-# blame.yaml, customize it to suit your team and projects, and run it!  You can customize reasons
-# if necessary, though I am trying to make these useful for just about any development team.
-#
-# Syntax:
-#     ruby blame.rb [opts]
-# 
-# Possible options:
-#
-# * --person: Skips the random person selection, using the given value instead.  Requires --pronoun
-#   to be specified.
-# * --pronoun: Required if --person is set.  Must be "he" or "she" for use with the person's name.
-# * --app: Skips the random app selection, using the given value instead
-# * --app2: Skips the random app selection for the "secondary" app in a review (see below)
-# * --review: Picks two random apps and a random user, and provides the basis for a thoughtful,
-#   constructive performance review.  Why two apps?  Over my time as a manager, I've found that
-#   it's best to give a person reviews based on more than one project, even if they have never
-#   worked on anything else.
-#
-# This is basically free code for personal use.  If you use it in another project, you really need
-# to ask yourself if you couldn't possibly find a better way to spend your time.  If you derive
-# anything from this code, please let me know.  Maybe I can find you a good shrink or something.
-
 # Yeah, the whole of rubygems just to pull in getopt/long.  This is a management tool, so
 # dependencies need to make as little sense as possible.
 require "rubygems"
