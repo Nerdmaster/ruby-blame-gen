@@ -35,10 +35,12 @@ Possible options:
 Licensing
 ---------
 
-This is basically free code for personal use.  If you use it in another project, you really need
-to ask yourself if you couldn't possibly find a better way to spend your time.  If you derive
-anything from this code, please let me know.  Aside from wanting to know who would do this and why,
-there's also a fair chance I can find you a good shrink or something.
+THIS IS NOW RELEASED UNDER THE BSD LICENSE.  HOPE YOU'RE HAPPY.
+
+In other words, this is basically free code for personal use.  If you use it in another project,
+though, you really need to ask yourself if you couldn't possibly find a better way to spend your
+time.  If you derive anything from this code, please let me know.  Aside from wanting to know who
+would do this and why, there's also a fair chance I can find you a good shrink or something.
 
 Note that the random string variation magic is actually about 100 times more awesome than this app,
 and if you find a use for that piece, in all honestly, I'd like to be informed just because I think
