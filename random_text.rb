@@ -11,7 +11,7 @@ class String
   def variation(values={})
     out = self.dup
     while out.gsub!( %r{\(([^())?]+)\)(\?)?} ){
-      ( $2 && ( rand > 0.5 ) ) ? '' : $1.split( '|' ).choice
+      ( $2 && ( rand > 0.5 ) ) ? '' : $1.split( '|' ).shuffle.first
     }; end
     out.gsub!( /:(#{values.keys.join('|')})\b/ ){ values[$1.intern] } unless values.empty?
     out.gsub!( /( \t){2,}/, ' ' )

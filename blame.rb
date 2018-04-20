@@ -7,7 +7,7 @@ require "getopt/long"
 require "yaml"
 
 # This is an amazing fucking piece of code.  Seriously.
-require "random_text"
+require "./random_text"
 
 opts = Getopt::Long.getopts(
   ["--person", "-p", Getopt::REQUIRED],
